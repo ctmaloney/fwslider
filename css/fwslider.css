@@ -1,0 +1,39 @@
+#fw-wrapper {
+	overflow:visible;
+	margin:0 auto;
+	position:relative;
+}
+#fw-slider {
+	position:absolute;
+}
+#fw-slider div {
+	float:left;
+}
+#fw-nav-next,
+#fw-nav-prev {
+	position:absolute;
+	top:0;
+	right:0;
+	height:100%;
+	background:#000;
+	width:50px;
+	opacity:0.5;
+	/* IE */
+	filter: alpha(opacity=50);
+}
+#fw-nav-prev {
+	left:0;
+	right:auto;
+}
+#fw-nav-next a,
+#fw-nav-prev a {
+	display:block;
+	height:100%;
+	text-indent:-9999px;
+}
+#fw-nav-next a {
+	background:url(../images/fw-slider-arrow-right.png) no-repeat center center;
+}
+#fw-nav-prev a {
+	background:url(../images/fw-slider-arrow-left.png) no-repeat center center;
+}
