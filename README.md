@@ -1,5 +1,8 @@
 	Usage:
 	
+	<link href="fwslider/css/fwslider.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="fwslider/fwslider.js"></script>
+	
 	<div id="slider">
 			<div><img src="image1.jpg" /></div>
 			<div><img src="image2.jpg" /></div>
