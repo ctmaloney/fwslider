@@ -1,3 +1,7 @@
+A image rotator that expands to fill the full with of its parent.
+
+View an Example -> http://ctmaloney.github.com/fwslider/
+	
 	Usage:
 	
 	<link href="fwslider/css/fwslider.css" rel="stylesheet" type="text/css" />
